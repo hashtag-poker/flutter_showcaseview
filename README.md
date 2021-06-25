@@ -8,6 +8,8 @@
 A Flutter package allows you to Showcase/Highlight your widgets step by step.
 
 It is inspired from [Fluttery's Flutter challenge](https://www.youtube.com/watch?v=Xm0ELlBtNWM).
+## Custom Changes
+We have disabled the Tap on the Highlight widget and also the background of the showcase.
 
 
 
