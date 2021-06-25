@@ -253,7 +253,8 @@ class _ShowcaseState extends State<Showcase> with TickerProviderStateMixin {
         child: Stack(
           children: [
             GestureDetector(
-              onTap: _nextIfAny,
+              // onTap: _nextIfAny,
+              onTap: null,
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height,
@@ -269,7 +270,8 @@ class _ShowcaseState extends State<Showcase> with TickerProviderStateMixin {
             _TargetWidget(
               offset: offset,
               size: size,
-              onTap: _getOnTargetTap,
+              // onTap: _getOnTargetTap,
+              onTap: null,
               shapeBorder: widget.shapeBorder,
             ),
             ToolTipWidget(
